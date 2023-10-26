@@ -1,0 +1,73 @@
+<?php
+return [
+    'lookup_array' => [
+        1 => 'User Group',
+        2 => 'Digital Marketing',
+        3 => 'Hotline',
+        4 => 'Project Category',
+        5 => 'Project Area',
+        6 => 'Project Name',
+        7 => 'Project Size',
+        8 => 'Source Title',
+        9 => 'Source Name',
+        10 => 'Ocupation',
+        11 => 'Press Ad.',
+        12 => 'Billboard',
+        13 => 'Project Board',
+        14 => 'Flyer',
+        15 => 'FNF',
+        16 => 'Lead Stages',
+        17 => 'Lead Followup Type',
+        18 => 'Team Name',
+        19=>'Designation',
+        20=>'Sub Source',
+    ],
+    'lead_stage_arr' => [
+        1 => 'Lead',
+        2 => 'QC Passed',
+        3 => 'K1',
+        4 => 'Priority',
+        5 => 'Hold',
+        6 => 'Closed',
+        7 => 'Sold',
+        8 => 'Upcoming',
+        // 9 => 'Junk',
+        10 => 'Follow up',
+        11 => 'Call again',
+        12 => 'Unaddressed',
+    ],
+    'module_arr' => [
+        1 => 'Lead Management',
+        2 => 'Sales Team Management',
+        3 => 'Report',
+        4 => 'Settings',
+        5 => 'Dashboard',
+        6 => 'Campaign',
+
+    ],
+    'agent_type' => [
+        1 => 'Lead Agent',
+        2 => 'Sales Agent',
+    ],
+    'lead_distribution_type' => [
+        1 => 'All',
+        2 => 'Pending',
+        3 => 'Manual',
+        4 => 'Auto',
+    ],
+    'lead_type' => [
+        1 => 'BTI Sales',
+        2 => 'Brokerage (Sales)',
+        //6 => 'Brokerage (Rent)',
+        11 => 'Brokerage (Rent Sales)',
+        7 => 'Brokerage (Rent Inventory)', // procuement =1 kora jabe nah
+        9 => 'Brokerage (Sales Inventory)', // 2,6,11,7,9 er jnno inventory show koraite hbe
+        3 => 'BD Land',
+        4 => 'SFS Interiors(Internal)',
+        10 => 'SFS Interiors(External)',
+        5 => 'SFS (Building Design Product)',
+        8 => 'Hollow Block',
+    ],
+    'months_arr' => ["01" => "JANUARY", "02" => "FEBRUARY", "03" => "MARCH", "04" => "APRIL", "05" => "MAY", "06" => "JUNE", "07" => "JULY", "08" => "AUGUSTS", "09" => "SEPTEMBER", "10" => "OCTOBER", "11" => "NOVEMBER", "12" => "DECEMBER"],
+
+];
